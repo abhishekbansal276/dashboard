@@ -1,0 +1,56 @@
+﻿
+> dashboards@0.0.0 lint
+> eslint .
+
+
+D:\Project\Dashboards\src\components\Header.jsx
+  5:34  error  'title' is missing in props validation                                                     react/prop-types
+  7:12  error  'notifOpen' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\Project\Dashboards\src\components\MetricCard.jsx
+  21:38   error  'title' is missing in props validation        react/prop-types
+  21:45   error  'value' is missing in props validation        react/prop-types
+  21:52   error  'prefix' is missing in props validation       react/prop-types
+  21:65   error  'suffix' is missing in props validation       react/prop-types
+  21:78   error  'change' is missing in props validation       react/prop-types
+  21:86   error  'changeLabel' is missing in props validation  react/prop-types
+  21:99   error  'icon' is missing in props validation         react/prop-types
+  21:111  error  'color' is missing in props validation        react/prop-types
+  21:130  error  'index' is missing in props validation        react/prop-types
+
+D:\Project\Dashboards\src\context\ThemeContext.jsx
+   5:33  error  'children' is missing in props validation                                                                                       react/prop-types
+  21:14  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\Project\Dashboards\src\pages\AdminPanel.jsx
+  87:25  error  'k' is missing in props validation  react/prop-types
+
+D:\Project\Dashboards\src\pages\Analytics.jsx
+  68:26  error  'active' is missing in props validation          react/prop-types
+  68:34  error  'payload' is missing in props validation         react/prop-types
+  68:43  error  'label' is missing in props validation           react/prop-types
+  69:30  error  'payload.length' is missing in props validation  react/prop-types
+  73:22  error  'payload.map' is missing in props validation     react/prop-types
+
+D:\Project\Dashboards\src\pages\Crypto.jsx
+   1:31  error  'useRef' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  35:26  error  'active' is missing in props validation                                        react/prop-types
+  35:34  error  'payload' is missing in props validation                                       react/prop-types
+  36:30  error  'payload.length' is missing in props validation                                react/prop-types
+  39:96  error  'payload[].value' is missing in props validation                               react/prop-types
+
+D:\Project\Dashboards\src\pages\SocialMedia.jsx
+  56:26  error  'active' is missing in props validation                                               react/prop-types
+  56:34  error  'payload' is missing in props validation                                              react/prop-types
+  56:43  error  'label' is missing in props validation                                                react/prop-types
+  57:30  error  'payload.length' is missing in props validation                                       react/prop-types
+  61:22  error  'payload.map' is missing in props validation                                          react/prop-types
+  66:10  error  'useCountUp' is defined but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  66:21  error  'target' is defined but never used                                                    no-unused-vars
+  67:15  error  'setV' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  67:23  error  'useState' is not defined                                                             no-undef
+  68:21  error  'm' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  69:29  error  'useEffect' is defined but never used                                                 no-unused-vars
+
+Γ£û 35 problems (35 errors, 0 warnings)
+
